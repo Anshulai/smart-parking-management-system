@@ -1,0 +1,267 @@
+/* Dark Theme Colors */
+
+/* Top Section */
+.top_section {
+    background: #1a1a1a url('../images/top_bg.png');
+    background-blend-mode: overlay;
+}
+
+/* Sidebar */
+#sidebar {
+    background: #2d2d2d;
+    color: #ffffff;
+}
+
+#sidebar ul.components {
+    border-bottom: 1px solid #3d3d3d;
+}
+
+#sidebar ul li a {
+    color: #ffffff;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+#sidebar ul li a:hover {
+    background: #3d3d3d;
+    color: #f36b2a;
+}
+
+#sidebar ul li.active > a {
+    background: #f36b2a;
+    color: #ffffff;
+}
+
+/* Loader */
+.loader_bg {
+    background: #1a1a1a;
+}
+
+/* Custom Components */
+.dark_bg_blue {
+    background: #2d2d2d;
+}
+
+.testimonial_cont {
+    background: #2d2d2d;
+    color: #ffffff;
+}
+
+footer {
+    background: #1a1a1a;
+    border-top: 1px solid #3d3d3d;
+}
+
+.cpy_right {
+    background: #2d2d2d;
+    color: #ffffff;
+}
+
+/* Messages */
+.alert {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border: 1px solid #3d3d3d;
+}
+
+.alert-success {
+    background-color: #28a745;
+    border-color: #1e7e34;
+}
+
+.alert-danger {
+    background-color: #dc3545;
+    border-color: #bd2130;
+}
+
+.alert-warning {
+    background-color: #ffc107;
+    border-color: #d39e00;
+    color: #1a1a1a;
+}
+
+/* Theme Toggle Button */
+.theme-toggle-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+    color: #f36b2a;
+}
+
+.theme-toggle-btn i {
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle-btn:hover i {
+    transform: rotate(45deg);
+}
+
+/* General Buttons */
+.btn {
+    border-radius: 0;
+}
+
+/* Dark Theme Specific Overrides */
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark-theme .top_section {
+    background: #1a1a1a url('../images/top_bg.png');
+    background-blend-mode: overlay;
+}
+
+.dark-theme .navbar {
+    background-color: rgba(45, 45, 45, 0.9) !important;
+}
+
+.dark-theme .right_header_info ul li a {
+    color: #ffffff;
+}
+
+.dark-theme .overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark_bg {
+    background: #2d2d2d;
+}
+
+.main-menu ul > li a {
+    color: #ffffff;
+}
+
+.main-menu ul > li .sub-down li a {
+    color: #ffffff;
+    background: #2d2d2d;
+}
+
+.main-menu ul > li .sub-down li a:hover {
+    background: #3d3d3d;
+    color: #f36b2a;
+}
+
+.main-menu ul > li > ul {
+    background: #2d2d2d;
+}
+
+.table {
+    color: #ffffff;
+    background: #2d2d2d;
+}
+
+.table thead th {
+    background: #3d3d3d;
+    border-color: #4d4d4d;
+}
+
+.table td, .table th {
+    border-color: #4d4d4d;
+}
+
+.card {
+    background: #2d2d2d;
+    border-color: #4d4d4d;
+}
+
+.card-header {
+    background: #3d3d3d;
+    border-color: #4d4d4d;
+}
+
+.form-control {
+    background-color: #3d3d3d;
+    border-color: #4d4d4d;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background-color: #3d3d3d;
+    border-color: #f36b2a;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #f36b2a;
+    border-color: #f36b2a;
+}
+
+.btn-primary:hover {
+    background-color: #d85a1f;
+    border-color: #d85a1f;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #2d2d2d !important;
+}
+
+/* Content Areas */
+.container {
+    background-color: #1a1a1a;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+/* Links */
+a {
+    color: #f36b2a;
+}
+
+a:hover {
+    color: #d85a1f;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    background-color: #3d3d3d;
+    border-color: #4d4d4d;
+    color: #ffffff;
+}
+
+/* Alerts and Messages */
+.alert {
+    background-color: #2d2d2d;
+    border-color: #4d4d4d;
+    color: #ffffff;
+}
+
+/* Modal Windows */
+.modal-content {
+    background-color: #2d2d2d;
+    border-color: #4d4d4d;
+}
+
+.modal-header {
+    border-bottom-color: #4d4d4d;
+}
+
+.modal-footer {
+    border-top-color: #4d4d4d;
+}
+
+/* List Groups */
+.list-group-item {
+    background-color: #2d2d2d;
+    border-color: #4d4d4d;
+    color: #ffffff;
+}
