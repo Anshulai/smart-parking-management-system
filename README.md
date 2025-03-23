@@ -86,11 +86,4 @@ Parking Zones available:
 5. Hospital Parking (120 slots)
 6. Metro Station Parking (250 slots)
 
-## License
 
-© 2021-2025 All Rights Reserved
-
-## Contributors
-
-- Original Design: Jeremiah George
-- Development Team: [List of contributors]
